@@ -19,10 +19,15 @@
             box-shadow: 0px 1px 5px rgba(0,0,0,.2);
             padding: 1em;
             margin: 1em;
+            width: 100%
         }
         .box.header{
             background-color: rgb(9, 87, 22);
             width: 96.5%;
+        }
+        .box h1, .box h2 {
+            color: rgb(9, 87, 22);
+            text-align: center;
         }
         .box.header h1, .box.header h2 {
             text-align: center;
@@ -34,96 +39,91 @@
         .box h2{
             font-size: 2em;
         }
-              .box h3{
+        .box h3{
+            font-size: 1.5em;
+        }
+        .box h4{
             font-size: 1.5em;
             font-style: italic;
             text-align: center;
             color:rgb(20, 104, 90) 
         }
+        .box p{
+            color: #111;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.25em;
+        }
         .flexer{
             display: flex;
-            width: 100%;
+        }  
+        .tab{
+            margin-left: 40px;
         }
         .box.footer{
             background:#e7d998
         }
-        .image{
-            border: 1px solid #DEDEDE;
-            box-shadow: 0px 1px 5px rgba(0,0,0,.2);
-            padding: .5em;
-            margin: .25em;
-            max-width: 100%;
-            height: auto;
+        .box.w-85{
+            width:96.5%;
         }
-    
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: rgb(105, 103, 103);
-  overflow: hidden;
-}
+        
+        /* Add a black background color to the top navigation */
+        .topnav {
+            background-color: #333;
+            overflow: hidden;
+        }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 30px;
-}
+        /* Style the links inside the navigation bar */
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: rgb(9, 87, 22);
+  background-color: #04AA6D;
   color: white;
 }
-</style>
+
+    </style>
 
 </head>
 
 <body>          
     <div class="topnav">
-        <a class="active" href="/about/index.html">Home</a>
-        <a href="/mowtown/services.html">Services</a>
+        <a href="/about/index.html">Home</a>
+        <a class="active" href="/mowtown/services.html">Services</a>
         <a href="/contact/services.html">Contact</a>
         <a href="/about/services.html">About</a>
       </div>
 
-    <div class="box header">
-        <h1>Mow Town Landscaping</h1>
-        <h2>Spice up your yard with Mow Town Landscaping today!</h2>
-    </div>
-
     <div class="flexer">
-        <img class="image" src="https://user-images.githubusercontent.com/94234371/142957977-0253d581-67f0-4710-ba46-f7ee67faaddb.png" alt="Front">
-        <img class="image" src="https://user-images.githubusercontent.com/94234371/142958899-d5efe9f6-ecb8-47aa-8d92-160d8553cc70.png" alt="Back">
-    </div>
-      
-    <div class="flexer">
-        <div class="box footer">
-            <h3>Mow Town Landscaping always does quality work. I recommend them to everyone I know!</h3>
-            <p>- Natasha R, Worcester MA</p>
-        </div>
-        <div class="box footer">
-            <h3>Mow Town Landscaping truly made my yard sing!</h3>
-            <p>- Tony S, Shewsbury MA </p>
-        </div>
-        <div class="box footer">
-            <h3>Kind and professional! Every Mow Town employee was a pleasure to work with!</h3>
-            <p>- Scarlett W, Burillville RI </p>
-        </div>
-        <div class="box footer">
-            <h3>Mow Town Landscaping designed and contructed my dream yard! I never want to go inside!</h3>
-            <p>- Bruce B, Marlborough MA </p>
+        <div class="box">
+            <h2>Services</h2>
+                <h3>Landscape Design & Construction</h3>
+                <h3>Masonry</h3>
+                <h3>Lawn Maintenance</h3>
+                    <p class="tab">Mowing</p>
+                    <p class="tab">Fertilizaion</p>
+                <h3>Garden Services</h3>
+                    <p class="tab">Weed Control</p>
+                    <p class="tab">Mulch Installation</p>
+                <h3>Spring & Fall Clean-Up</h3>
+                <h3>Hedge Trimming</h3>
+                <h3>Aerating</h3>
         </div>
     </div>
 
-
+    <img src="https://user-images.githubusercontent.com/94234371/142957117-87f8c490-b7d5-4119-b7e3-28d0f78cdeca.png" alt="Gardens">
+    
 </body>
 </html>
