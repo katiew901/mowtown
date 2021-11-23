@@ -11,6 +11,7 @@
     <style>
         body{
             background-color: #FAFAFA;
+            font-family: Georgia, Times, serif;
         } 
         .box{
             background-color: rgb(212, 211, 211);
@@ -21,65 +22,49 @@
             margin: 1em;
             width: 100%
         }
-        .box.header{
-            background-color: rgb(9, 87, 22);
-            width: 96.5%;
-        }
         .box h1, .box h2 {
-            color: rgb(9, 87, 22);
             text-align: center;
-        }
-        .box.header h1, .box.header h2 {
-            text-align: center;
-            color:rgb(241, 240, 240);
         }
         .box h1{
-            font-size: 3.5em;
+            font-size: 3em;
+            color: rgb(9, 87, 22);
         }
         .box h2{
-            font-size: 2em;
-        }
-        .box h3{
             font-size: 1.5em;
-        }
-        .box h4{
-            font-size: 1.5em;
-            font-style: italic;
-            text-align: center;
-            color:rgb(20, 104, 90) 
+            color: #111;
         }
         .box p{
             color: #111;
             font-family:Verdana, Geneva, Tahoma, sans-serif;
             font-size: 1.25em;
+            text-align: center;
         }
         .flexer{
             display: flex;
         }  
-        .tab{
-            margin-left: 40px;
+        .image{
+            border: 1px solid #DEDEDE;
+            box-shadow: 0px 1px 5px rgba(0,0,0,.2);
+            padding: 1em;
+            margin: 1em;
+            display: block;
+            text-align: center;
+            width: 65%;
         }
-        .box.footer{
-            background:#e7d998
-        }
-        .box.w-85{
-            width:96.5%;
-        }
-        
         /* Add a black background color to the top navigation */
         .topnav {
-            background-color: #333;
+            background-color: rgb(105, 103, 103);
             overflow: hidden;
         }
 
         /* Style the links inside the navigation bar */
         .topnav a {
             float: left;
-            color: #f2f2f2;
+            color: whitesmoke;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
-            font-size: 17px;
+            font-size: 30px;
         }
 
         /* Change the color of links on hover */
@@ -88,42 +73,12 @@
             color: black;
         }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
+        /* Add a color to the active/current link */
+        .topnav a.active {
+            background-color: rgb(9, 87, 22);
+            color: white;
+        }
 
     </style>
 
 </head>
-
-<body>          
-    <div class="topnav">
-        <a href="/about/index.html">Home</a>
-        <a class="active" href="/mowtown/services.html">Services</a>
-        <a href="/contact/services.html">Contact</a>
-        <a href="/about/services.html">About</a>
-      </div>
-
-    <div class="flexer">
-        <div class="box">
-            <h2>Services</h2>
-                <h3>Landscape Design & Construction</h3>
-                <h3>Masonry</h3>
-                <h3>Lawn Maintenance</h3>
-                    <p class="tab">Mowing</p>
-                    <p class="tab">Fertilizaion</p>
-                <h3>Garden Services</h3>
-                    <p class="tab">Weed Control</p>
-                    <p class="tab">Mulch Installation</p>
-                <h3>Spring & Fall Clean-Up</h3>
-                <h3>Hedge Trimming</h3>
-                <h3>Aerating</h3>
-        </div>
-    </div>
-
-    <img src="https://user-images.githubusercontent.com/94234371/142957117-87f8c490-b7d5-4119-b7e3-28d0f78cdeca.png" alt="Gardens">
-    
-</body>
-</html>
