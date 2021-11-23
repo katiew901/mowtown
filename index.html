@@ -23,11 +23,7 @@
         }
         .box.header{
             background-color: rgb(9, 87, 22);
-            width: 96.5%;
-        }
-        .box h1, .box h2 {
-            color: rgb(9, 87, 22);
-            text-align: center;
+            width: 100%;
         }
         .box.header h1, .box.header h2 {
             text-align: center;
@@ -48,42 +44,25 @@
             text-align: center;
             color:rgb(20, 104, 90) 
         }
-        .box p{
-            color: #111;
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 1.25em;
-        }
+
         .flexer{
             display: flex;
-        }  
-        .tab{
-            margin-left: 40px;
         }
+
         .box.footer{
             background:#e7d998
         }
-        .box.w-85{
-            width:96.5%;
-        }
-        .btn {
-            border: none;
-            background-color: inherit;
-            padding: 14px 28px;
-            font-size: 16px;
-            cursor: pointer;
-            display: inline-block;
+
+        .image{
             border: 1px solid #DEDEDE;
             box-shadow: 0px 1px 5px rgba(0,0,0,.2);
-            padding: 1em;
-            margin: 1em;
+            padding: .5em;
+            margin: .25em;
         }
-
-        /* On mouse-over */
-        .btn:hover {background: #eee;}
-
+    
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: rgb(105, 103, 103);
   overflow: hidden;
 }
 
@@ -94,7 +73,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 30px;
 }
 
 /* Change the color of links on hover */
@@ -105,7 +84,7 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: rgb(9, 87, 22);
   color: white;
 }
 </style>
@@ -113,55 +92,23 @@
 </head>
 
 <body>          
+    <div class="topnav">
+        <a class="active" href="/about/index.html">Home</a>
+        <a href="/mowtown/services.html">Services</a>
+        <a href="/contact/services.html">Contact</a>
+        <a href="/about/services.html">About</a>
+      </div>
+
     <div class="box header">
         <h1>Mow Town Landscaping</h1>
         <h2>Spice up your yard with Mow Town Landscaping today!</h2>
     </div>
 
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="/mowtown/services.html">Services</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-      </div>
-      
     <div class="flexer">
-        <div class="box">
-            <h2>Services</h2>
-                <h3>Landscape Design & Construction</h3>
-                <h3>Masonry</h3>
-                <h3>Lawn Maintenance</h3>
-                    <p class="tab">Mowing</p>
-                    <p class="tab">Fertilizaion</p>
-                <h3>Garden Services</h3>
-                    <p class="tab">Weed Control</p>
-                    <p class="tab">Mulch Installation</p>
-                <h3>Spring & Fall Clean-Up</h3>
-                <h3>Hedge Trimming</h3>
-                <h3>Aerating</h3>
-        </div>
-        <div class="box">
-            <h2>Contact for Pricing</h2>
-                <h3>Phone</h3>
-                    <p class="tab">1-234-456-7890</p>
-                <h3>Email</h3>
-                    <p class="tab">mowtownlandscaping@email.com</p>
-                <h3>Walk-In</h3>
-                    <p class="tab">1 Lawn Road</p>
-                    <p class="tab">Worcester MA, 01609</p>
-                <h3>Hours of Operation</h3>
-                    <p class="tab">Weekdays</p>
-                    <p class="tab">9am to 5pm</p>
-                <h4>We would greatly appreciate the opportunity to have your business. Get a quote today!</h4>
-        </div>
+        <img class="image" src="https://user-images.githubusercontent.com/94234371/142957977-0253d581-67f0-4710-ba46-f7ee67faaddb.png" alt="Front">
+        <img class="image" src="https://user-images.githubusercontent.com/94234371/142958899-d5efe9f6-ecb8-47aa-8d92-160d8553cc70.png" alt="Back">
     </div>
-
-    <div class="box w-85"> 
-            <h2>About Us</h2>
-            <p> Mow Town Landscaping is a family owned and operated landscaping service company headquartered in Worcester, MA. Mow Town Landscaping was founded by the Smith brothers in 1997. Since its inception, the company has been known for the quality and care put into every job. Mow Town services Central Massachusetts and Northern Rhode Island and Connecticut. Check out some customer reviews below!</p>
-        </div>
-    </div>
-
+      
     <div class="flexer">
         <div class="box footer">
             <h4>Mow Town Landscaping always does quality work. I recommend them to everyone I know!</h4>
@@ -179,5 +126,7 @@
             <h4>Mow Town Landscaping designed and contructed my dream yard! I never want to go inside!</h4>
             <p>- Bruce B, Marlborough MA </p>
         </div>
+    </div>
+
 </body>
 </html>
