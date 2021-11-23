@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>UX Design - Test Page</title>
+    <meta name="description" content="The HTMLS Herald">
+    <meta name="author" content="StiePoint">
+
+    <style>
+        body{
+            background-color: #FAFAFA;
+        } 
+        .box{
+            background-color: rgb(212, 211, 211);
+            color: #222;
+            border: 1px solid #DEDEDE;
+            box-shadow: 0px 1px 5px rgba(0,0,0,.2);
+            padding: 1em;
+            margin: 1em;
+            width: 100%
+        }
+        .box.header{
+            background-color: rgb(9, 87, 22);
+            width: 96.5%;
+        }
+        .box h1, .box h2 {
+            color: rgb(9, 87, 22);
+            text-align: center;
+        }
+        .box.header h1, .box.header h2 {
+            text-align: center;
+            color:rgb(241, 240, 240);
+        }
+        .box h1{
+            font-size: 3.5em;
+        }
+        .box h2{
+            font-size: 2em;
+        }
+        .box h3{
+            font-size: 1.5em;
+        }
+        .box h4{
+            font-size: 1.5em;
+            font-style: italic;
+            text-align: center;
+            color:rgb(20, 104, 90) 
+        }
+        .box p{
+            color: #111;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.25em;
+        }
+        .flexer{
+            display: flex;
+        }  
+        .tab{
+            margin-left: 40px;
+        }
+        .box.footer{
+            background:#e7d998
+        }
+        .box.w-85{
+            width:96.5%;
+        }
+        .btn {
+            border: none;
+            background-color: inherit;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            display: inline-block;
+            border: 1px solid #DEDEDE;
+            box-shadow: 0px 1px 5px rgba(0,0,0,.2);
+            padding: 1em;
+            margin: 1em;
+        }
+
+        /* On mouse-over */
+        .btn:hover {background: #eee;}
+
+    </style>
+
+</head>
+
+<body>          
+    <div class="box header">
+        <h1>Mow Town Landscaping</h1>
+        <h2>Spice up your yard with Mow Town Landscaping today!</h2>
+    </div>
+
+    <div class="flexer">   
+      <button class="btn success">Success</button>
+      <button class="btn info">Info</button>
+      <button class="btn warning">Warning</button>
+      <button class="btn danger">Danger</button>
+      <button class="btn default">Default</button>
+    </div>
+
+    <div class="flexer">
+        <div class="box">
+            <h2>Services</h2>
+                <h3>Landscape Design & Construction</h3>
+                <h3>Masonry</h3>
+                <h3>Lawn Maintenance</h3>
+                    <p class="tab">Mowing</p>
+                    <p class="tab">Fertilizaion</p>
+                <h3>Garden Services</h3>
+                    <p class="tab">Weed Control</p>
+                    <p class="tab">Mulch Installation</p>
+                <h3>Spring & Fall Clean-Up</h3>
+                <h3>Hedge Trimming</h3>
+                <h3>Aerating</h3>
+        </div>
+        <div class="box">
+            <h2>Contact for Pricing</h2>
+                <h3>Phone</h3>
+                    <p class="tab">1-234-456-7890</p>
+                <h3>Email</h3>
+                    <p class="tab">mowtownlandscaping@email.com</p>
+                <h3>Walk-In</h3>
+                    <p class="tab">1 Lawn Road</p>
+                    <p class="tab">Worcester MA, 01609</p>
+                <h3>Hours of Operation</h3>
+                    <p class="tab">Weekdays</p>
+                    <p class="tab">9am to 5pm</p>
+                <h4>We would greatly appreciate the opportunity to have your business. Get a quote today!</h4>
+        </div>
+    </div>
+
+    <div class="box w-85"> 
+            <h2>About Us</h2>
+            <p> Mow Town Landscaping is a family owned and operated landscaping service company headquartered in Worcester, MA. Mow Town Landscaping was founded by the Smith brothers in 1997. Since its inception, the company has been known for the quality and care put into every job. Mow Town services Central Massachusetts and Northern Rhode Island and Connecticut. Check out some customer reviews below!</p>
+        </div>
+    </div>
+
+    <div class="flexer">
+        <div class="box footer">
+            <h4>Mow Town Landscaping always does quality work. I recommend them to everyone I know!</h4>
+            <p>- Natasha R, Worcester MA</p>
+        </div>
+        <div class="box footer">
+            <h4>Mow Town Landscaping truly made my yard sing!</h4>
+            <p>- Tony S, Shewsbury MA </p>
+        </div>
+        <div class="box footer">
+            <h4>Kind and professional! Every Mow Town employee was a pleasure to work with!</h4>
+            <p>- Scarlett W, Burillville RI </p>
+        </div>
+        <div class="box footer">
+            <h4>Mow Town Landscaping designed and contructed my dream yard! I never want to go inside!</h4>
+            <p>- Bruce B, Marlborough MA </p>
+        </div>
+</body>
+</html>
