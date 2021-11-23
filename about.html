@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>UX Design - Test Page</title>
+    <meta name="description" content="The HTMLS Herald">
+    <meta name="author" content="StiePoint">
+
+    <style>
+        body{
+            background-color: #FAFAFA;
+            font-family: Georgia, Times, serif;
+        } 
+        .box{
+            background-color: rgb(212, 211, 211);
+            color: #222;
+            border: 1px solid #DEDEDE;
+            box-shadow: 0px 1px 5px rgba(0,0,0,.2);
+            padding: 1em;
+            margin: 1em;
+            width: 100%
+        }
+        .box h1, .box h2 {
+            text-align: center;
+        }
+        .box h1{
+            font-size: 3em;
+            color: rgb(9, 87, 22);
+        }
+        .box h2{
+            font-size: 1.5em;
+            color: #111;
+        }
+        .box p{
+            color: #111;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.25em;
+            text-align: center;
+        }
+        .flexer{
+            display: flex;
+        }  
+        .image{
+            border: 1px solid #DEDEDE;
+            box-shadow: 0px 1px 5px rgba(0,0,0,.2);
+            padding: 1em;
+            margin: 1em;
+            display: block;
+            text-align: center;
+            width: 65%;
+        }
+        /* Add a black background color to the top navigation */
+        .topnav {
+            background-color: rgb(105, 103, 103);
+            overflow: hidden;
+        }
+
+        /* Style the links inside the navigation bar */
+        .topnav a {
+            float: left;
+            color: whitesmoke;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 30px;
+        }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Add a color to the active/current link */
+        .topnav a.active {
+            background-color: rgb(9, 87, 22);
+            color: white;
+        }
+
+    </style>
+
+</head>
+
+<body>          
+    <div class="topnav">
+        <a href="/about/index.html">Home</a>
+        <a class="active" href="/mowtown/services.html">Services</a>
+        <a href="/contact/services.html">Contact</a>
+        <a href="/about/services.html">About</a>
+      </div>
+
+    <div class="flexer">
+        <div class="box">
+            <h1>Services</h1>
+                <h2>Landscape Design & Construction</h2>
+                <h2>Masonry</h2>
+                <h2>Lawn Maintenance</h2>
+                    <p>Mowing</p>
+                    <p>Fertilization</p>
+                <h2>Garden Services</h2>
+                    <p>Weed Control</p>
+                    <p>Mulch Installation</p>
+                <h2>Spring & Fall Clean-Up</h2>
+                <h2>Hedge Trimming</h2>
+                <h2>Aerating</h2>
+        </div>
+        <img class="image" src="https://user-images.githubusercontent.com/94234371/142962617-30d1dac5-4d91-4114-a391-8241146ad810.png" alt="Service">
+    </div>
+
+</body>
+</html>
